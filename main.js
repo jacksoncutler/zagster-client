@@ -1,9 +1,8 @@
-alert("Hello, World!")
+//alert("Hello, World!")
 
-/*
+
 $(helloWorld)
 
 function helloWorld() {
-    alert("Hello, World!")
+    alert("Hello, World! (but with jQuery)")
 }
-*/
