@@ -5,3 +5,7 @@ body {
 h2 {
     font-size: 1.3em
 }
+
+p#data {
+    font-size: .9em
+}

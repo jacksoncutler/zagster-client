@@ -2,19 +2,26 @@
 <html>
 <head>
     <title>zagster-client</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel='stylesheet' href='main.css'>
     <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous">
+    src='https://code.jquery.com/jquery-3.3.1.min.js'
+    integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=''
+    crossorigin='anonymous'>
     </script>
+
+    
     <script src="main.js"></script>
+
+    <canvas id='myChart'></canvas>
+    <script src='https://cdn.jsdelivr.net/npm/chart.js@2.8.0'></script>
+    <script src='zagster-chart.js'></script>
 </head>
 
 <body>
     <h1>Zagster Bike Share</h1>
     <h2>Visualization by Jackson Cutler</h2>
-    <p>*insert beautiful visualization of Zagster bike share data here*</p>
-    <img src="bar_chart.png">
+    <p id='data'>*insert beautiful visualization of Zagster bike share data here*</p>
+    <img src='bar_chart.png'>
+    
 </body>
 </html>
