@@ -20,6 +20,7 @@ function updateGraph() {
 function updateRideCount(data) {
   items = []
   $.each(data, storeData)
+  $('p#data').html(items)
 
   // ORIGINAL
   /* numberOfRides = data.count
@@ -27,7 +28,7 @@ function updateRideCount(data) {
 }
 
 function storeData(key, value) {
-  items.push(' ' + key + ':' + value)
+  items.push(' ' + key + ':' + value + ',')
 }
 
 
