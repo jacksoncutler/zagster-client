@@ -86,7 +86,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
     data: {
         labels: x_list,
         datasets: [{
-            label: 'Rides per month',
+            label: '# of Rides',
             backgroundColor: 'rgb(50, 200, 150)',
             borderColor: 'rgb(50, 200, 150)',
             data: y_list,
