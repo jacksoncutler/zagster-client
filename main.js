@@ -86,7 +86,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
     data: {
         labels: x_list,
         datasets: [{
-            label: '# of Rides',
+            label: '# of Bike Rentals',
             backgroundColor: 'rgb(50, 200, 150)',
             borderColor: 'rgb(50, 200, 150)',
             data: y_list,
