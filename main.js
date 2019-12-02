@@ -1,3 +1,8 @@
+const BASE_URL = "https://zagster-service.herokuapp.com"
+const PI = 3.14159
+const MONTH_LIST = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+
 // Exercise 14
 
 /* $(helloWorld)
@@ -7,27 +12,33 @@ function helloWorld() {
 } */
 
 
-// Exercise 15
+// Exercise 16
 
-const BASE_URL = "https://zagster-service.herokuapp.com"
-const PI = 3.14159
-const MONTH_LIST = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-
-/* var ans = add(1,PI)
-console.log("The answer (round 2) is: " + ans)
+add(1,PI)
 
 function add(num1, num2) {
     answer = num1 + num2
     console.log("The answer is: " + answer)
     return answer
-} */
+}
 
-//$(per_year)
+var person = {'age': 35}
+greet(person)
+
+function greet(person) {
+    if(person['age'] > 30) {
+        console.log('Hey old timer, bet you miss your rotary phone!')
+    }
+}
+console.log('\n\n')
+
+// Data Visualization
 
 $(per_month)
 
 
 // To graph the amount of zagster rentals by year
+// Not currently being used
 function per_year() {
     $.getJSON(BASE_URL + "/rides/count/per_year" , get_year_counts)
 }
