@@ -2,10 +2,11 @@ body {
     font-family: "HelveticaNeue", "Arial", sans-serif;
 }
 
-h2 {
-    font-size: 1.3em
+div {
+    max-width: 50%;
+    padding: 3rem;
 }
 
-p#data {
-    font-size: .9em
+h2 {
+    font-size: 1.3em
 }
